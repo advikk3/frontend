@@ -32,16 +32,6 @@ export default function Home() {
         <div className="overlay"></div>
       </div>
 
-    <div className="home-container">
-      <div className="home-bg"></div>
-      <div className="overlay"></div>
-
-      <div className="home-content">
-        {/* header, hero, footer, etc */}
-      </div>
-    </div>
-
-
       {/* Content */}
       <div className="home-content">
         {/* Header */}
@@ -55,7 +45,7 @@ export default function Home() {
           </nav>
           <button className="login-btn">Login / Sign Up</button>
         </header>
-
+          
         {/* Hero section */}
         <main className="home-hero">
           <h1 className="hero-title">DO OR DIE</h1>
@@ -70,7 +60,7 @@ export default function Home() {
             />
           </p>
         </main>
-
+          
         {/* Footer */}
         <footer className="home-footer">
           <div className="footer-links">
