@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "disaster": "Tornado",
+    "question": "You spot a tornado forming nearby...",
+    "background": "tornado",
+    "options": [
+      {
+        "text": "Get into a small, windowless interior room or basement and cover yourself with something heavy.",
+        "keywords": ["shelter", "room", "basement", "cover"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! This protects you from flying debris and collapsing structures."
+      },
+      {
+        "text": "Take shelter in your car, seatbelt on, and park under an overpass.",
+        "keywords": ["car", "overpass"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Cars and overpasses can funnel wind and debris — dangerous but slightly better than open ground."
+      },
+      {
+        "text": "Hide near the largest window to watch the storm’s path.",
+        "keywords": ["window", "watch"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Windows can shatter violently during tornadoes — never stand near them."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "disaster": "Earthquake",
+    "question": "The ground starts shaking violently...",
+    "background": "earthquake",
+        "options": [
+      {
+        "text": "Get into a small, windowless interior room or basement and cover yourself with something heavy.",
+        "keywords": ["shelter", "room", "basement", "cover"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! This protects you from flying debris and collapsing structures."
+      },
+      {
+        "text": "Take shelter in your car, seatbelt on, and park under an overpass.",
+        "keywords": ["car", "overpass"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Cars and overpasses can funnel wind and debris — dangerous but slightly better than open ground."
+      },
+      {
+        "text": "Hide near the largest window to watch the storm’s path.",
+        "keywords": ["window", "watch"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Windows can shatter violently during tornadoes — never stand near them."
+      }
+    ]
+  }
+]

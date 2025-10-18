@@ -6,5 +6,7 @@ export default function Campaign() {
       <h1>🎯 Campaign Page</h1>
       <p>This is the Campaign Page.</p>
     </div>
+
+    
   )
 }

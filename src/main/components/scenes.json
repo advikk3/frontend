@@ -1,0 +1,439 @@
+
+
+[
+  {
+    "id": 1,
+    "disaster": "Tornado",
+    "question": "You spot a tornado forming nearby, and the wind starts howling. What should you do?",
+    "background": "tornado",
+    "options": [
+      {
+        "text": "Get into a small, windowless interior room or basement and cover yourself with something heavy.",
+        "keywords": ["shelter", "room", "basement", "cover"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! This protects you from flying debris and collapsing structures."
+      },
+      {
+        "text": "Take shelter in your car, seatbelt on, and park under an overpass.",
+        "keywords": ["car", "overpass"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Cars and overpasses can funnel wind and debris — dangerous but slightly better than open ground."
+      },
+      {
+        "text": "Hide near the largest window to watch the storm’s path.",
+        "keywords": ["window", "watch"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Windows can shatter violently during tornadoes — never stand near them."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "disaster": "Tsunami",
+    "question": "The ocean suddenly pulls far back, exposing the seabed. What should you do?",
+    "background": "tsunami",
+    "options": [
+      {
+        "text": "Run immediately inland or to high ground without hesitation.",
+        "keywords": ["run", "inland", "high ground"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! A receding ocean is a sign of an incoming tsunami — escape to higher ground immediately."
+      },
+      {
+        "text": "Head to your car and drive parallel to the coast to find an escape route.",
+        "keywords": ["car", "coast", "drive"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Driving might help if you're far enough, but roads often jam — running is faster and safer."
+      },
+      {
+        "text": "Wait to confirm it’s really a tsunami before panicking.",
+        "keywords": ["wait", "confirm"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Waiting wastes precious seconds — tsunamis can hit within minutes."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "disaster": "Forest Fire",
+    "question": "The trees are aflame, The smoke thickens and heat becomes unbearable. What should you do?",
+    "background": "forest_fire",
+    "options": [
+      {
+        "text": "Move toward a burned or cleared area and stay low to the ground.",
+        "keywords": ["burned", "cleared", "low"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! Burned areas have less fuel and staying low helps you breathe cooler, cleaner air."
+      },
+      {
+        "text": "Try to find a small stream or pond and wait there until the fire passes.",
+        "keywords": ["water", "pond", "stream"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Can work if no better option, but smoke and radiant heat can still kill."
+      },
+      {
+        "text": "Run uphill toward open space to stay ahead of the flames.",
+        "keywords": ["uphill", "run"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Fire moves faster uphill — this increases danger."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "disaster": "Volcano Eruption",
+    "question": "You see lava glowing on the horizon. What should you do?",
+    "background": "volcano",
+    "options": [
+      {
+        "text": "Evacuate quickly in the opposite direction, away from the flow and valley paths.",
+        "keywords": ["evacuate", "lava", "opposite"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! Move away from valleys and lava flow paths immediately."
+      },
+      {
+        "text": "Close all windows and doors to avoid inhaling ash.",
+        "keywords": ["ash", "close", "windows"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Helps reduce ash inhalation but does not save you from lava or pyroclastic flows."
+      },
+      {
+        "text": "Wait for official evacuation instructions before leaving.",
+        "keywords": ["wait", "instructions"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Waiting too long can trap you — act fast when eruption starts."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "disaster": "Earthquake",
+    "question": "The floor starts to shake violently — walls are cracking. What should you do?",
+    "background": "earthquake",
+    "options": [
+      {
+        "text": "Drop, cover, and hold under a sturdy table until shaking stops.",
+        "keywords": ["drop", "cover", "hold", "table"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! Protects you from falling debris and collapsing ceilings."
+      },
+      {
+        "text": "Move quickly to a doorway — it’s traditionally considered safer.",
+        "keywords": ["doorway"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Doorways aren’t as safe as believed — only okay if reinforced."
+      },
+      {
+        "text": "Dash outside before debris starts falling.",
+        "keywords": ["outside", "run"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Exiting during shaking is very dangerous due to falling objects."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "disaster": "Sandstorm",
+    "question": "Visibility drops to nearly zero; the air burns your throat. What should you do?",
+    "background": "sandstorm",
+    "options": [
+      {
+        "text": "Cover your mouth and nose, get low, and find shelter from the wind.",
+        "keywords": ["cover", "shelter", "low"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! Reduces dust inhalation and prevents disorientation."
+      },
+      {
+        "text": "Keep walking in the direction of the road using a cloth over your face.",
+        "keywords": ["walk", "cloth"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Partially helps, but moving in low visibility risks getting lost."
+      },
+      {
+        "text": "Stand tall and look for help while signaling with your arms.",
+        "keywords": ["signal", "stand"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Standing up increases exposure to wind and sand — unsafe."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "disaster": "Avalanche",
+    "question": "You hear the roar — snow is rushing toward you. What should you do?",
+    "background": "avalanche",
+    "options": [
+      {
+        "text": "Move diagonally out of the slide’s path and ditch your gear.",
+        "keywords": ["diagonal", "run", "ditch"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! Escaping sideways increases survival chances."
+      },
+      {
+        "text": "Try to climb a nearby tree or rock to get above the snow.",
+        "keywords": ["climb", "tree", "rock"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Might help if close enough, but difficult under avalanche force."
+      },
+      {
+        "text": "Sprint straight downhill to outrun the avalanche.",
+        "keywords": ["downhill", "run"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Impossible to outrun snow traveling over 100 km/h."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "disaster": "Cyclone/Hurricane",
+    "question": "You’re stuck in your home as wind speeds climb past 200 km/h. What should you do?",
+    "background": "hurricane",
+    "options": [
+      {
+        "text": "Shelter in a windowless interior room or hallway.",
+        "keywords": ["shelter", "interior", "windowless"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! Interior rooms offer best protection from flying debris."
+      },
+      {
+        "text": "Open a window slightly to reduce pressure buildup.",
+        "keywords": ["window", "pressure"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Pressure equalization myth — doesn’t help much but not instantly fatal."
+      },
+      {
+        "text": "Go outside to check for damage during the calm 'eye' period.",
+        "keywords": ["outside", "eye"],
+        "correct": false,
+        "score": 0,
+        "explanation": "The storm resumes violently — never go outside until it’s declared over."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "disaster": "Lightning Storm",
+    "question": "You’re hiking in a field when thunder booms overhead. What should you do?",
+    "background": "lightning",
+    "options": [
+      {
+        "text": "Crouch low on your toes with minimal ground contact.",
+        "keywords": ["crouch", "low", "toes"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! Minimizes your height and ground contact area."
+      },
+      {
+        "text": "Move toward a cluster of small trees for partial cover.",
+        "keywords": ["trees", "cover"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Slightly safer than open field but still risky near trees."
+      },
+      {
+        "text": "Lie flat on the ground to avoid attracting lightning.",
+        "keywords": ["flat", "ground"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Lying flat increases contact with ground current — dangerous."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "disaster": "Flood",
+    "question": "Water is rising fast around your home. What should you do?",
+    "background": "flood",
+    "options": [
+      {
+        "text": "Get to the roof or the highest level immediately.",
+        "keywords": ["roof", "high", "level"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! Higher ground reduces drowning risk."
+      },
+      {
+        "text": "Try to drive to safety through shallow-looking water.",
+        "keywords": ["drive", "car", "water"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Cars can be swept away in 15 cm of water — risky."
+      },
+      {
+        "text": "Stay in the living room and wait for rescuers to arrive.",
+        "keywords": ["wait", "rescue"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Waiting delays escape — act fast."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "disaster": "Landslide",
+    "question": "The hill begins to crumble — rocks are rolling fast. What should you do?",
+    "background": "landslide",
+    "options": [
+      {
+        "text": "Run sideways, away from the path of falling debris.",
+        "keywords": ["sideways", "run", "away"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! Moving perpendicular to slide direction gives best chance to escape."
+      },
+      {
+        "text": "Shelter behind a large boulder to block the slide.",
+        "keywords": ["shelter", "boulder"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Can help only if the rock remains stable — risky."
+      },
+      {
+        "text": "Sprint downhill, hoping to outrun the debris.",
+        "keywords": ["downhill", "run"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Slides move faster downhill — impossible to outrun."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "disaster": "Sinkhole",
+    "question": "The ground trembles and cracks under your feet. What should you do?",
+    "background": "sinkhole",
+    "options": [
+      {
+        "text": "Move quickly and steadily away from the affected area.",
+        "keywords": ["move", "away", "ground"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! Getting distance prevents you from being pulled in."
+      },
+      {
+        "text": "Stay where you are to avoid triggering more collapse.",
+        "keywords": ["stay", "still"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Staying still may avoid vibrations, but risks collapse underfoot."
+      },
+      {
+        "text": "Step closer to inspect the depth of the hole.",
+        "keywords": ["inspect", "hole"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Getting close risks falling in — stay far away."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "disaster": "Ashfall",
+    "question": "A gray cloud of ash covers the sky — breathing becomes tough. What should you do?",
+    "background": "ashfall",
+    "options": [
+      {
+        "text": "Stay indoors, seal windows, and cover your mouth with a damp cloth.",
+        "keywords": ["indoors", "seal", "mask"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! Ash inhalation can be deadly — sealing prevents it."
+      },
+      {
+        "text": "Use your car to drive out of the ash zone as fast as possible.",
+        "keywords": ["car", "drive"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Engines can clog with ash — risky but better than being exposed outdoors."
+      },
+      {
+        "text": "Step outside with sunglasses and wait for it to settle.",
+        "keywords": ["outside", "wait"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Ash contains glass particles — can harm eyes and lungs."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "disaster": "Heatwave",
+    "question": "Temperatures are dangerously high; power is out. What should you do?",
+    "background": "heatwave",
+    "options": [
+      {
+        "text": "Stay inside, keep curtains closed, and drink water frequently.",
+        "keywords": ["inside", "curtains", "water"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! Prevents dehydration and keeps body temperature low."
+      },
+      {
+        "text": "Take a short walk to get fresh air and cool your body down.",
+        "keywords": ["walk", "cool"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Might feel cooler briefly, but risks heatstroke outside."
+      },
+      {
+        "text": "Sit outside in the shade to get natural air circulation.",
+        "keywords": ["shade", "outside"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Shade helps but heat exposure remains dangerous."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "disaster": "Blizzard",
+    "question": "Snow blocks the door; supplies are running low. What should you do?",
+    "background": "blizzard",
+    "options": [
+      {
+        "text": "Stay inside, seal windows, conserve food, and signal for help.",
+        "keywords": ["inside", "seal", "conserve"],
+        "correct": true,
+        "score": 2,
+        "explanation": "Correct! Staying sheltered and conserving energy maximizes survival."
+      },
+      {
+        "text": "Try to dig a small tunnel out and search for nearby houses.",
+        "keywords": ["dig", "tunnel"],
+        "correct": false,
+        "score": 1,
+        "explanation": "Might help but risks exhaustion and exposure to freezing air."
+      },
+      {
+        "text": "Leave immediately to walk toward the nearest town.",
+        "keywords": ["leave", "walk"],
+        "correct": false,
+        "score": 0,
+        "explanation": "Disorientation and frostbite make this deadly in low visibility."
+      }
+    ]
+  }
+]
